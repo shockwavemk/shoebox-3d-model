@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shoe Box 3D Model</title>
+  <style>
+    html, body { margin: 0; height: 100%; overflow: hidden; background: #1e1e1e; font-family: system-ui, sans-serif; }
+    #app { position: relative; width: 100%; height: 100%; }
+    canvas { display: block; }
+    #hint {
+      position: absolute; left: 12px; bottom: 12px; color: #ccc; font-size: 12px;
+      background: rgba(0,0,0,0.4); padding: 6px 10px; border-radius: 6px; pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <div id="hint">Drag to rotate · Scroll to zoom · Use panel on the right to open/close flaps and load textures</div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
